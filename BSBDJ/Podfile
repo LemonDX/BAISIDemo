@@ -1,0 +1,13 @@
+platform :ios, "7.0"
+
+target :BSBDJ do
+pod "AFNetworking"
+pod "SDWebImage"
+pod "SVProgressHUD"
+pod "MJExtension"
+pod "MJRefresh"
+pod "DACircularProgress"
+pod "pop"
+
+
+end
