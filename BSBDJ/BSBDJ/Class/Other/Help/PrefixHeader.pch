@@ -10,7 +10,7 @@
 #define PrefixHeader_pch
 
 #import "UIView+RSExtension.h"
-
+#import "UIBarButtonItem+RSBarButtonItem.h"
 #ifdef DEBUG
 #define RSLog(...) NSLog(__VA_ARGS__)
 #else
@@ -20,5 +20,5 @@
 #define RSLogFunc XMGLog(@"%s", __func__)
 
 #define RSRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
-
+#define RSGlobalBg RSRGBColor(223, 223, 223)
 #endif

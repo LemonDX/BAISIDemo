@@ -7,7 +7,7 @@
 //
 
 #import "RSEssenceViewController.h"
-
+#import "RSTopicViewController.h"
 @interface RSEssenceViewController ()
 
 @end
@@ -16,22 +16,45 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self setNavigation];
+    [self setChildVces];
+    [self setTitles];
 }
 
+/**
+ *  设置导航栏
+ */
+- (void)setNavigation{
+    self.navigationItem.titleView=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(tagClick)];
+    self.view.backgroundColor=RSGlobalBg;
+    
+}
+- (void)tagClick{
+
+    
+}
+/**
+ *  子控制器
+ */
+- (void)setChildVces{
+    for ( int i=0; i<5; i++) {
+        RSTopicViewController *vc=[[RSTopicViewController alloc]init];
+        [self addChildViewController:vc];
+    }
+}
+/**
+ *  设置顶部标签栏
+ */
+- (void)setTitles{
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
