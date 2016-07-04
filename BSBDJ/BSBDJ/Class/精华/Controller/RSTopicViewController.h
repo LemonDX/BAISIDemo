@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RSTopicViewController : UIViewController
-
+@interface RSTopicViewController : UITableViewController
+/** 类型 */
+@property (nonatomic,assign)XMGTopicType type;
 @end

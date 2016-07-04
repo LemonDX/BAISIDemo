@@ -11,6 +11,7 @@
 
 #import "UIView+RSExtension.h"
 #import "UIBarButtonItem+RSBarButtonItem.h"
+#import "RSConst.h"
 #ifdef DEBUG
 #define RSLog(...) NSLog(__VA_ARGS__)
 #else

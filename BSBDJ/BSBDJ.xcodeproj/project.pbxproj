@@ -24,6 +24,13 @@
 		09B559DC1D20D14E003BE7CA /* RSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B559DB1D20D14E003BE7CA /* RSTabBar.m */; };
 		09C7B9611D211481000591FE /* UIBarButtonItem+RSBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C7B9601D211481000591FE /* UIBarButtonItem+RSBarButtonItem.m */; };
 		09C7B9641D211F6F000591FE /* RSTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C7B9631D211F6F000591FE /* RSTopicViewController.m */; };
+		09C7B9681D221D07000591FE /* RSConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C7B9671D221D07000591FE /* RSConst.m */; };
+		09C7B96C1D24EEDE000591FE /* RSTopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C7B96B1D24EEDE000591FE /* RSTopModel.m */; };
+		09C7B96F1D260768000591FE /* RSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C7B96E1D260768000591FE /* RSUser.m */; };
+		09C7B9721D260784000591FE /* RSComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C7B9711D260784000591FE /* RSComment.m */; };
+		09C7B9751D2607C9000591FE /* RSTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C7B9741D2607C9000591FE /* RSTag.m */; };
+		09C7B9791D262A38000591FE /* RSTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C7B9771D262A38000591FE /* RSTopicCell.m */; };
+		09C7B97A1D262A38000591FE /* RSTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C7B9781D262A38000591FE /* RSTopicCell.xib */; };
 		48D36DAD876E1FCCEC24F933 /* libPods-BSBDJ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4A3970A6A14983C99A1C50 /* libPods-BSBDJ.a */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +87,19 @@
 		09C7B9601D211481000591FE /* UIBarButtonItem+RSBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+RSBarButtonItem.m"; sourceTree = "<group>"; };
 		09C7B9621D211F6F000591FE /* RSTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTopicViewController.h; sourceTree = "<group>"; };
 		09C7B9631D211F6F000591FE /* RSTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTopicViewController.m; sourceTree = "<group>"; };
+		09C7B9671D221D07000591FE /* RSConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSConst.m; sourceTree = "<group>"; };
+		09C7B9691D221D14000591FE /* RSConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSConst.h; sourceTree = "<group>"; };
+		09C7B96A1D24EEDE000591FE /* RSTopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTopModel.h; sourceTree = "<group>"; };
+		09C7B96B1D24EEDE000591FE /* RSTopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTopModel.m; sourceTree = "<group>"; };
+		09C7B96D1D260768000591FE /* RSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSUser.h; sourceTree = "<group>"; };
+		09C7B96E1D260768000591FE /* RSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSUser.m; sourceTree = "<group>"; };
+		09C7B9701D260784000591FE /* RSComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSComment.h; sourceTree = "<group>"; };
+		09C7B9711D260784000591FE /* RSComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSComment.m; sourceTree = "<group>"; };
+		09C7B9731D2607C9000591FE /* RSTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTag.h; sourceTree = "<group>"; };
+		09C7B9741D2607C9000591FE /* RSTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTag.m; sourceTree = "<group>"; };
+		09C7B9761D262A38000591FE /* RSTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTopicCell.h; sourceTree = "<group>"; };
+		09C7B9771D262A38000591FE /* RSTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTopicCell.m; sourceTree = "<group>"; };
+		09C7B9781D262A38000591FE /* RSTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSTopicCell.xib; sourceTree = "<group>"; };
 		0C4A3970A6A14983C99A1C50 /* libPods-BSBDJ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSBDJ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AB0140578C4CEE25C7DD2B /* Pods-BSBDJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSBDJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ.debug.xcconfig"; sourceTree = "<group>"; };
 		F9EF0767690876C599A6B23D /* Pods-BSBDJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSBDJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ.release.xcconfig"; sourceTree = "<group>"; };
@@ -275,6 +295,14 @@
 		09B559B11D20B558003BE7CA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				09C7B96A1D24EEDE000591FE /* RSTopModel.h */,
+				09C7B96B1D24EEDE000591FE /* RSTopModel.m */,
+				09C7B96D1D260768000591FE /* RSUser.h */,
+				09C7B96E1D260768000591FE /* RSUser.m */,
+				09C7B9701D260784000591FE /* RSComment.h */,
+				09C7B9711D260784000591FE /* RSComment.m */,
+				09C7B9731D2607C9000591FE /* RSTag.h */,
+				09C7B9741D2607C9000591FE /* RSTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -282,6 +310,9 @@
 		09B559B21D20B558003BE7CA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				09C7B9761D262A38000591FE /* RSTopicCell.h */,
+				09C7B9771D262A38000591FE /* RSTopicCell.m */,
+				09C7B9781D262A38000591FE /* RSTopicCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -406,6 +437,8 @@
 			isa = PBXGroup;
 			children = (
 				09B559D91D20C728003BE7CA /* PrefixHeader.pch */,
+				09C7B9691D221D14000591FE /* RSConst.h */,
+				09C7B9671D221D07000591FE /* RSConst.m */,
 			);
 			path = Help;
 			sourceTree = "<group>";
@@ -534,6 +567,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09C7B97A1D262A38000591FE /* RSTopicCell.xib in Resources */,
 				095FF6631D014C7800E4F397 /* LaunchScreen.storyboard in Resources */,
 				095FF6601D014C7800E4F397 /* Assets.xcassets in Resources */,
 				095FF65E1D014C7800E4F397 /* Main.storyboard in Resources */,
@@ -612,14 +646,20 @@
 				095FF6581D014C7800E4F397 /* AppDelegate.m in Sources */,
 				09B559D41D20BC84003BE7CA /* RSNavViewController.m in Sources */,
 				095FF6551D014C7800E4F397 /* main.m in Sources */,
+				09C7B9751D2607C9000591FE /* RSTag.m in Sources */,
+				09C7B9791D262A38000591FE /* RSTopicCell.m in Sources */,
 				09B559CB1D20B7D7003BE7CA /* RSEssenceViewController.m in Sources */,
+				09C7B96F1D260768000591FE /* RSUser.m in Sources */,
 				09B559DC1D20D14E003BE7CA /* RSTabBar.m in Sources */,
 				09B559CE1D20B7EB003BE7CA /* RSMineViewController.m in Sources */,
 				09B559C81D20B7C4003BE7CA /* RSFriendTrendsViewController.m in Sources */,
 				09C7B9611D211481000591FE /* UIBarButtonItem+RSBarButtonItem.m in Sources */,
 				09B559D11D20B804003BE7CA /* RSNewViewController.m in Sources */,
 				09C7B9641D211F6F000591FE /* RSTopicViewController.m in Sources */,
+				09C7B96C1D24EEDE000591FE /* RSTopModel.m in Sources */,
 				09B559D81D20C6B1003BE7CA /* UIView+RSExtension.m in Sources */,
+				09C7B9681D221D07000591FE /* RSConst.m in Sources */,
+				09C7B9721D260784000591FE /* RSComment.m in Sources */,
 				09B559C21D20B75F003BE7CA /* RSTabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
