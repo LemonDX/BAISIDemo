@@ -200,6 +200,16 @@
                     <constraint firstAttribute="bottom" secondItem="6mg-lT-FP9" secondAttribute="bottom" id="wgt-bF-GVo"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="bottomToolLabel" destination="6mg-lT-FP9" id="xSc-nq-ezf"/>
+                <outlet property="comContentLabel" destination="7Lk-KO-qkX" id="ABU-uA-LaC"/>
+                <outlet property="commentLabel" destination="OIk-zt-3AN" id="vcp-aG-ol0"/>
+                <outlet property="headImage" destination="RcY-U4-J7e" id="OV3-Bs-ACa"/>
+                <outlet property="nameLabel" destination="kXU-OO-NZs" id="elz-jw-8QB"/>
+                <outlet property="sinaV" destination="bQ0-Yf-qvU" id="X6L-qZ-rQE"/>
+                <outlet property="timeLabel" destination="VYY-IS-kmB" id="EgF-Pj-uH2"/>
+                <outlet property="topContentLabel" destination="gDC-am-VyB" id="UpT-8F-Hmg"/>
+            </connections>
             <point key="canvasLocation" x="280" y="269.5"/>
         </tableViewCell>
     </objects>

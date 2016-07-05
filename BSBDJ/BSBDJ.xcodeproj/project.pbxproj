@@ -14,6 +14,8 @@
 		095FF6631D014C7800E4F397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095FF6611D014C7800E4F397 /* LaunchScreen.storyboard */; };
 		095FF66E1D014C7900E4F397 /* BSBDJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FF66D1D014C7900E4F397 /* BSBDJTests.m */; };
 		095FF6791D014C7900E4F397 /* BSBDJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FF6781D014C7900E4F397 /* BSBDJUITests.m */; };
+		099F39CD1D2A0E80002CCED0 /* UIImage+RSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F39CC1D2A0E80002CCED0 /* UIImage+RSImage.m */; };
+		099F39D01D2A2850002CCED0 /* UIImageView+RSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F39CF1D2A2850002CCED0 /* UIImageView+RSImageView.m */; };
 		09B559C21D20B75F003BE7CA /* RSTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B559C11D20B75F003BE7CA /* RSTabViewController.m */; };
 		09B559C81D20B7C4003BE7CA /* RSFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B559C71D20B7C4003BE7CA /* RSFriendTrendsViewController.m */; };
 		09B559CB1D20B7D7003BE7CA /* RSEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B559CA1D20B7D7003BE7CA /* RSEssenceViewController.m */; };
@@ -66,6 +68,10 @@
 		095FF6741D014C7900E4F397 /* BSBDJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSBDJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		095FF6781D014C7900E4F397 /* BSBDJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSBDJUITests.m; sourceTree = "<group>"; };
 		095FF67A1D014C7900E4F397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099F39CB1D2A0E80002CCED0 /* UIImage+RSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RSImage.h"; sourceTree = "<group>"; };
+		099F39CC1D2A0E80002CCED0 /* UIImage+RSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RSImage.m"; sourceTree = "<group>"; };
+		099F39CE1D2A2850002CCED0 /* UIImageView+RSImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+RSImageView.h"; sourceTree = "<group>"; };
+		099F39CF1D2A2850002CCED0 /* UIImageView+RSImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+RSImageView.m"; sourceTree = "<group>"; };
 		09B559C01D20B75F003BE7CA /* RSTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTabViewController.h; sourceTree = "<group>"; };
 		09B559C11D20B75F003BE7CA /* RSTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTabViewController.m; sourceTree = "<group>"; };
 		09B559C61D20B7C4003BE7CA /* RSFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -429,6 +435,10 @@
 				09B559D71D20C6B1003BE7CA /* UIView+RSExtension.m */,
 				09C7B95F1D211481000591FE /* UIBarButtonItem+RSBarButtonItem.h */,
 				09C7B9601D211481000591FE /* UIBarButtonItem+RSBarButtonItem.m */,
+				099F39CB1D2A0E80002CCED0 /* UIImage+RSImage.h */,
+				099F39CC1D2A0E80002CCED0 /* UIImage+RSImage.m */,
+				099F39CE1D2A2850002CCED0 /* UIImageView+RSImageView.h */,
+				099F39CF1D2A2850002CCED0 /* UIImageView+RSImageView.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -650,12 +660,14 @@
 				09C7B9791D262A38000591FE /* RSTopicCell.m in Sources */,
 				09B559CB1D20B7D7003BE7CA /* RSEssenceViewController.m in Sources */,
 				09C7B96F1D260768000591FE /* RSUser.m in Sources */,
+				099F39CD1D2A0E80002CCED0 /* UIImage+RSImage.m in Sources */,
 				09B559DC1D20D14E003BE7CA /* RSTabBar.m in Sources */,
 				09B559CE1D20B7EB003BE7CA /* RSMineViewController.m in Sources */,
 				09B559C81D20B7C4003BE7CA /* RSFriendTrendsViewController.m in Sources */,
 				09C7B9611D211481000591FE /* UIBarButtonItem+RSBarButtonItem.m in Sources */,
 				09B559D11D20B804003BE7CA /* RSNewViewController.m in Sources */,
 				09C7B9641D211F6F000591FE /* RSTopicViewController.m in Sources */,
+				099F39D01D2A2850002CCED0 /* UIImageView+RSImageView.m in Sources */,
 				09C7B96C1D24EEDE000591FE /* RSTopModel.m in Sources */,
 				09B559D81D20C6B1003BE7CA /* UIView+RSExtension.m in Sources */,
 				09C7B9681D221D07000591FE /* RSConst.m in Sources */,

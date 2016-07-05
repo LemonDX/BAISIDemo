@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class RSTopModel;
 @interface RSTopicCell : UITableViewCell
-
+/** 模型 */
+@property (nonatomic,strong)RSTopModel *model;
 @end
