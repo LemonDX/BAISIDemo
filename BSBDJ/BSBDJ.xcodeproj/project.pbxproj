@@ -16,6 +16,13 @@
 		095FF6791D014C7900E4F397 /* BSBDJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FF6781D014C7900E4F397 /* BSBDJUITests.m */; };
 		099F39CD1D2A0E80002CCED0 /* UIImage+RSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F39CC1D2A0E80002CCED0 /* UIImage+RSImage.m */; };
 		099F39D01D2A2850002CCED0 /* UIImageView+RSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F39CF1D2A2850002CCED0 /* UIImageView+RSImageView.m */; };
+		099F39D31D2B4505002CCED0 /* RSPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F39D21D2B4505002CCED0 /* RSPictureView.m */; };
+		099F39D51D2B4517002CCED0 /* RSPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099F39D41D2B4517002CCED0 /* RSPictureView.xib */; };
+		099F39D81D2B4B45002CCED0 /* RSProgrssView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F39D71D2B4B45002CCED0 /* RSProgrssView.m */; };
+		099F39DB1D2B7E71002CCED0 /* RSVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F39DA1D2B7E71002CCED0 /* RSVoiceView.m */; };
+		099F39DD1D2B7E7C002CCED0 /* RSVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099F39DC1D2B7E7C002CCED0 /* RSVoiceView.xib */; };
+		099F39E01D2CA2DC002CCED0 /* RSViodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F39DF1D2CA2DC002CCED0 /* RSViodeView.m */; };
+		099F39E21D2CA493002CCED0 /* RSViodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099F39E11D2CA493002CCED0 /* RSViodeView.xib */; };
 		09B559C21D20B75F003BE7CA /* RSTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B559C11D20B75F003BE7CA /* RSTabViewController.m */; };
 		09B559C81D20B7C4003BE7CA /* RSFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B559C71D20B7C4003BE7CA /* RSFriendTrendsViewController.m */; };
 		09B559CB1D20B7D7003BE7CA /* RSEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B559CA1D20B7D7003BE7CA /* RSEssenceViewController.m */; };
@@ -72,6 +79,17 @@
 		099F39CC1D2A0E80002CCED0 /* UIImage+RSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RSImage.m"; sourceTree = "<group>"; };
 		099F39CE1D2A2850002CCED0 /* UIImageView+RSImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+RSImageView.h"; sourceTree = "<group>"; };
 		099F39CF1D2A2850002CCED0 /* UIImageView+RSImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+RSImageView.m"; sourceTree = "<group>"; };
+		099F39D11D2B4505002CCED0 /* RSPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPictureView.h; sourceTree = "<group>"; };
+		099F39D21D2B4505002CCED0 /* RSPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPictureView.m; sourceTree = "<group>"; };
+		099F39D41D2B4517002CCED0 /* RSPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSPictureView.xib; sourceTree = "<group>"; };
+		099F39D61D2B4B45002CCED0 /* RSProgrssView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSProgrssView.h; sourceTree = "<group>"; };
+		099F39D71D2B4B45002CCED0 /* RSProgrssView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSProgrssView.m; sourceTree = "<group>"; };
+		099F39D91D2B7E71002CCED0 /* RSVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSVoiceView.h; sourceTree = "<group>"; };
+		099F39DA1D2B7E71002CCED0 /* RSVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSVoiceView.m; sourceTree = "<group>"; };
+		099F39DC1D2B7E7C002CCED0 /* RSVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSVoiceView.xib; sourceTree = "<group>"; };
+		099F39DE1D2CA2DC002CCED0 /* RSViodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSViodeView.h; sourceTree = "<group>"; };
+		099F39DF1D2CA2DC002CCED0 /* RSViodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSViodeView.m; sourceTree = "<group>"; };
+		099F39E11D2CA493002CCED0 /* RSViodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSViodeView.xib; sourceTree = "<group>"; };
 		09B559C01D20B75F003BE7CA /* RSTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTabViewController.h; sourceTree = "<group>"; };
 		09B559C11D20B75F003BE7CA /* RSTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTabViewController.m; sourceTree = "<group>"; };
 		09B559C61D20B7C4003BE7CA /* RSFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -319,6 +337,17 @@
 				09C7B9761D262A38000591FE /* RSTopicCell.h */,
 				09C7B9771D262A38000591FE /* RSTopicCell.m */,
 				09C7B9781D262A38000591FE /* RSTopicCell.xib */,
+				099F39D11D2B4505002CCED0 /* RSPictureView.h */,
+				099F39D21D2B4505002CCED0 /* RSPictureView.m */,
+				099F39D41D2B4517002CCED0 /* RSPictureView.xib */,
+				099F39D61D2B4B45002CCED0 /* RSProgrssView.h */,
+				099F39D71D2B4B45002CCED0 /* RSProgrssView.m */,
+				099F39D91D2B7E71002CCED0 /* RSVoiceView.h */,
+				099F39DA1D2B7E71002CCED0 /* RSVoiceView.m */,
+				099F39DC1D2B7E7C002CCED0 /* RSVoiceView.xib */,
+				099F39DE1D2CA2DC002CCED0 /* RSViodeView.h */,
+				099F39DF1D2CA2DC002CCED0 /* RSViodeView.m */,
+				099F39E11D2CA493002CCED0 /* RSViodeView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -577,9 +606,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099F39E21D2CA493002CCED0 /* RSViodeView.xib in Resources */,
 				09C7B97A1D262A38000591FE /* RSTopicCell.xib in Resources */,
 				095FF6631D014C7800E4F397 /* LaunchScreen.storyboard in Resources */,
+				099F39D51D2B4517002CCED0 /* RSPictureView.xib in Resources */,
 				095FF6601D014C7800E4F397 /* Assets.xcassets in Resources */,
+				099F39DD1D2B7E7C002CCED0 /* RSVoiceView.xib in Resources */,
 				095FF65E1D014C7800E4F397 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -664,12 +696,16 @@
 				09B559DC1D20D14E003BE7CA /* RSTabBar.m in Sources */,
 				09B559CE1D20B7EB003BE7CA /* RSMineViewController.m in Sources */,
 				09B559C81D20B7C4003BE7CA /* RSFriendTrendsViewController.m in Sources */,
+				099F39D31D2B4505002CCED0 /* RSPictureView.m in Sources */,
 				09C7B9611D211481000591FE /* UIBarButtonItem+RSBarButtonItem.m in Sources */,
 				09B559D11D20B804003BE7CA /* RSNewViewController.m in Sources */,
 				09C7B9641D211F6F000591FE /* RSTopicViewController.m in Sources */,
+				099F39E01D2CA2DC002CCED0 /* RSViodeView.m in Sources */,
+				099F39DB1D2B7E71002CCED0 /* RSVoiceView.m in Sources */,
 				099F39D01D2A2850002CCED0 /* UIImageView+RSImageView.m in Sources */,
 				09C7B96C1D24EEDE000591FE /* RSTopModel.m in Sources */,
 				09B559D81D20C6B1003BE7CA /* UIView+RSExtension.m in Sources */,
+				099F39D81D2B4B45002CCED0 /* RSProgrssView.m in Sources */,
 				09C7B9681D221D07000591FE /* RSConst.m in Sources */,
 				09C7B9721D260784000591FE /* RSComment.m in Sources */,
 				09B559C21D20B75F003BE7CA /* RSTabViewController.m in Sources */,
