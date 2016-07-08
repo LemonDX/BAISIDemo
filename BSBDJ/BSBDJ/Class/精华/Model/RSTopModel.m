@@ -65,6 +65,8 @@
             CGFloat contentH = [content boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:13]} context:nil].size.height;
             _cellHeight += XMGTopicCellTopCmtTitleH + contentH + XMGTopicCellMargin;
         }
+        _cellHeight += XMGTopicCellBottomBarH + XMGTopicCellMargin;
+
     }
     return _cellHeight;
 }

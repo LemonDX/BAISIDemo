@@ -70,7 +70,9 @@
     for ( int i=0; i<5; i++) {
         RSTopicViewController *vc=[[RSTopicViewController alloc]init];
         vc.title = titleArray[i];
-        vc.type = typeArray [i];
+       
+        vc.type =[typeArray [i] intValue];
+        
         [self addChildViewController:vc];
     }
 }

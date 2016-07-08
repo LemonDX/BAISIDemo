@@ -10,5 +10,5 @@
 @class RSTopModel;
 @interface RSTopicCell : UITableViewCell
 /** 模型 */
-@property (nonatomic,strong)RSTopModel *model;
+@property (nonatomic,strong)RSTopModel *model1;
 @end

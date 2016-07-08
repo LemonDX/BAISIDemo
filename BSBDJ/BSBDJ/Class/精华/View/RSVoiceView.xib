@@ -23,7 +23,7 @@
                         </mask>
                     </variation>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zsS-eb-CeE">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zsS-eb-CeE">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </imageView>
@@ -53,11 +53,15 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="DZZ-G4-eA6" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="3oG-K4-bti"/>
+                <constraint firstItem="zsS-eb-CeE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3p6-Vt-ScC"/>
                 <constraint firstAttribute="trailing" secondItem="ok5-z3-vcb" secondAttribute="trailing" id="3wE-aF-drg"/>
+                <constraint firstItem="zsS-eb-CeE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="A4Q-7Z-vux"/>
                 <constraint firstItem="DZZ-G4-eA6" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="BC4-m8-Q4N"/>
                 <constraint firstAttribute="trailing" secondItem="RlC-ZG-Mhr" secondAttribute="trailing" id="Ci9-Ld-SYg"/>
                 <constraint firstItem="8a6-ih-WqI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="25" id="IK2-BB-bfG"/>
                 <constraint firstAttribute="trailing" secondItem="8a6-ih-WqI" secondAttribute="trailing" id="OXv-6i-rFj"/>
+                <constraint firstAttribute="bottom" secondItem="zsS-eb-CeE" secondAttribute="bottom" id="SMP-w5-ea8"/>
+                <constraint firstAttribute="trailing" secondItem="zsS-eb-CeE" secondAttribute="trailing" id="bJ9-n5-v7B"/>
                 <constraint firstItem="8a6-ih-WqI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fs4-UJ-fBv"/>
                 <constraint firstAttribute="bottom" secondItem="RlC-ZG-Mhr" secondAttribute="bottom" id="h9q-S7-4XP"/>
                 <constraint firstItem="ok5-z3-vcb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jml-8E-9MP"/>

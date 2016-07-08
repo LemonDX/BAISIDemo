@@ -18,7 +18,7 @@
 @implementation RSViodeView
 
 -(void)awakeFromNib{
-
+self.autoresizingMask = UIViewAutoresizingNone;
 }
 -(void)setModel:(RSTopModel *)model{
     _model=model;

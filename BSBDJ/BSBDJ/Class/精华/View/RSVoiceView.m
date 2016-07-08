@@ -20,6 +20,7 @@
 @implementation RSVoiceView
 
 - (void)awakeFromNib{
+      self.autoresizingMask = UIViewAutoresizingNone;
 }
 - (void)setModle:(RSTopModel *)modle{
     _modle=modle;
